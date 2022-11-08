@@ -7,7 +7,7 @@ public class PersonsSurnameLenthComparator implements Comparator<Person> {
         if (o1.getSurname().equals(o2.getSurname())) {
             return Integer.compare(o1.getAge(), o2.getAge());
         }
-        return Integer.compare(o1.getSurname().length(), o2.getSurname().length());
+        return Integer.compare(o1.countWordsSurname(o1.getSurname()), o2.countWordsSurname(o2.getSurname()));
     }
 
 }

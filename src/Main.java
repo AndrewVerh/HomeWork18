@@ -5,12 +5,12 @@ import java.util.List;
 
 public class Main {
     public static void main(String[] args) {
-        Person fedya = new Person("Федя", "Сумкн", 18);
-        Person senya = new Person("Сеня", "Ганж", 17);
-        Person agronom = new Person("Агроном", "Бомж", 36);
-        Person logovaz = new Person("Логоваз", "Эльф", 265);
-        Person pendal = new Person("Пендальф", "Серый", 126);
-        Person givi = new Person("Гиви", "Церетели", 54);
+        Person fedya = new Person("Федя", "Сумкн из рода сумчатых", 18);
+        Person senya = new Person("Сеня", "Семен Семенович Ганж", 17);
+        Person agronom = new Person("Агроном", "Бомж Сын Агропрома", 36);
+        Person logovaz = new Person("Логоваз", "Эльф Безотцовщина Трандуил", 265);
+        Person pendal = new Person("Пендальф", "Серый Майер", 126);
+        Person givi = new Person("Гиви", "Зурабович Церетели спустившийся с гор", 54);
 
         List<Person> people = new ArrayList<>();
         people.add(fedya);

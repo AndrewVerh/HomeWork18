@@ -1,3 +1,6 @@
+import java.util.HashSet;
+import java.util.Set;
+
 public class Person {
     private String name;
     private String surname;
@@ -35,6 +38,11 @@ public class Person {
 
     @Override
     public String toString() {
-        return name + " " + surname + " возраст " + age + " лет";
+        return name + "-" + surname + "-возраст " + age + " лет";
+    }
+
+    public int countWordsSurname(String surname) {
+        String[] countWords = this.surname.split(" ");
+        return countWords.length;
     }
 }
